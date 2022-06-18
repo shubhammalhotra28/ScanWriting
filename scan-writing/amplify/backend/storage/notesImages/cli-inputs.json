@@ -1,0 +1,26 @@
+{
+  "resourceName": "notesImages",
+  "tableName": "notesImages",
+  "partitionKey": {
+    "fieldName": "user_id",
+    "fieldType": "number"
+  },
+  "sortKey": {
+    "fieldName": "title",
+    "fieldType": "string"
+  },
+  "gsi": [
+    {
+      "name": "title-secondary-global-index",
+      "partitionKey": {
+        "fieldName": "title",
+        "fieldType": "string"
+      },
+      "sortKey": {
+        "fieldName": "user_id",
+        "fieldType": "number"
+      }
+    }
+  ],
+  "triggerFunctions": []
+}

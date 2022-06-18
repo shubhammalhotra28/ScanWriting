@@ -1,0 +1,18 @@
+{
+  "resourceName": "s3ToStoreImages",
+  "policyUUID": "02a7919e",
+  "bucketName": "s3-to-store-images",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

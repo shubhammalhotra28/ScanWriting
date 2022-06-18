@@ -1,0 +1,1 @@
+{"httpMethod": "POST", "path": "/comprehend", "queryStringParameters": {"extractedTexts": "hi my name is shubham"}}

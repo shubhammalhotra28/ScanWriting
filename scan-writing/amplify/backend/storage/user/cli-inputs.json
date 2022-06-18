@@ -1,0 +1,26 @@
+{
+  "resourceName": "user",
+  "tableName": "user",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "number"
+  },
+  "sortKey": {
+    "fieldName": "email",
+    "fieldType": "string"
+  },
+  "gsi": [
+    {
+      "name": "email-global-secondary-index",
+      "partitionKey": {
+        "fieldName": "email",
+        "fieldType": "string"
+      },
+      "sortKey": {
+        "fieldName": "id",
+        "fieldType": "number"
+      }
+    }
+  ],
+  "triggerFunctions": []
+}

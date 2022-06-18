@@ -1,0 +1,5 @@
+{"httpMethod": "POST", "path": "/textract", "queryStringParameters": {
+    "title": "python5.png",
+    "image": "python5.png",
+    "email": "test@gmail.com"
+  }}

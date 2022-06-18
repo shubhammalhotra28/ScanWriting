@@ -1,0 +1,5 @@
+{"httpMethod": "POST", "path": "/images", "queryStringParameters": {
+  "title": "testing-python2text-1-1",
+  "fileName": "/Users/shubhammalhotra/Downloads/python1.png",
+  "user_email": "test@gmail.com"
+},"body": "/Users/shubhammalhotra/Downloads/python1.png"}

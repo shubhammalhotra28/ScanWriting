@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/textract": {
+      "name": "/textract",
+      "lambdaFunction": "textract",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

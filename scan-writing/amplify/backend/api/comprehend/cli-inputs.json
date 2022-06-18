@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/comprehend": {
+      "name": "/comprehend",
+      "lambdaFunction": "comprehend",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+{"httpMethod": "POST", "path": "/populateuser", "queryStringParameters": {
+    "user_email": "tsm9971@rit.edu"
+  }}
